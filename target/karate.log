@@ -1,0 +1,528 @@
+18:40:06.904 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:40:07.297 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:40:08.748 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"1"}
+
+18:40:12.882 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4131 milliseconds for URL: http://localhost:8081/signup
+18:40:12.890 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:40:12.923 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:40:12.931 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"1"}
+
+18:40:17.022 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4090 milliseconds for URL: http://localhost:8081/signup
+18:40:17.023 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:40:17.057 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:40:17.063 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"Testando","loginPassword":"12345667890"}
+
+18:40:21.148 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4085 milliseconds for URL: http://localhost:8081/signup
+18:40:21.149 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:40:21.424 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/karate/signup.feature
+18:44:17.303 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:44:17.617 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:44:18.854 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"1"}
+
+18:44:23.002 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4147 milliseconds for URL: http://localhost:8081/signup
+18:44:23.004 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:44:23.041 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:44:23.048 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"1"}
+
+18:44:27.170 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4121 milliseconds for URL: http://localhost:8081/signup
+18:44:27.171 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:44:27.200 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:44:27.228 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"12345667890"}
+
+18:44:31.314 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4084 milliseconds for URL: http://localhost:8081/signup
+18:44:31.315 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:44:31.497 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/karate/signup.feature
+18:46:41.894 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:46:43.132 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"1"}
+
+18:46:47.254 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4122 milliseconds for URL: http://localhost:8081/signup
+18:46:47.255 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:46:47.302 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:46:47.307 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"1"}
+
+18:46:51.414 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4106 milliseconds for URL: http://localhost:8081/signup
+18:46:51.416 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:46:51.444 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:46:51.452 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"12345667890"}
+
+18:46:55.549 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4096 milliseconds for URL: http://localhost:8081/signup
+18:46:55.550 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:53:11.449 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:53:12.651 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"1"}
+
+18:53:16.780 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4129 milliseconds for URL: http://localhost:8081/signup
+18:53:16.782 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:53:16.849 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:53:16.859 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"1"}
+
+18:53:20.939 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4079 milliseconds for URL: http://localhost:8081/signup
+18:53:20.941 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+18:53:20.978 [main] INFO  com.intuit.karate - karate.env system property was:  
+18:53:20.989 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 54
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"lu@email.com","loginPassword":"12345667890"}
+
+18:53:25.106 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4117 milliseconds for URL: http://localhost:8081/signup
+18:53:25.108 [main] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+19:06:25.550 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:06:26.792 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:06:26.864 [main] DEBUG com.intuit.karate - response time in milliseconds: 68.40
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:06:26 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:06:26.842+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:06:26.871 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 68, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:06:26.842+00:00","status":403}
+19:06:26.942 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:06:26.955 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"123"}
+
+19:06:27.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 50.00
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:06:26 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:06:27.005+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:06:27.010 [main] ERROR com.intuit.karate - status code was: 403, expected: 400, response time: 50, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:06:27.005+00:00","status":403}
+19:06:27.033 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:06:27.039 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"12345667890"}
+
+19:06:27.061 [main] DEBUG com.intuit.karate - response time in milliseconds: 21.10
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:06:26 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:06:27.058+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:06:27.062 [main] ERROR com.intuit.karate - status code was: 403, expected: 400, response time: 21, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:06:27.058+00:00","status":403}
+19:34:58.568 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+19:34:58.583 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:karate/CreatePlanet.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+19:35:17.366 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:35:18.708 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:35:18.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 60.25
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:18 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:18.756+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:18.776 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 60, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:18.756+00:00","status":403}
+19:35:18.810 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:35:18.817 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"test@email.com","loginPassword":"123"}
+
+19:35:18.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 58.49
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:18 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:18.872+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:18.880 [main] ERROR com.intuit.karate - status code was: 403, expected: 400, response time: 58, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:18.872+00:00","status":403}
+19:35:18.905 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:35:18.910 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"12345667890"}
+
+19:35:18.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 20.95
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:18 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:18.929+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:18.933 [main] ERROR com.intuit.karate - status code was: 403, expected: 400, response time: 21, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:18.929+00:00","status":403}
+19:35:32.520 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:35:33.977 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"username":"1637793332717","password":"123"}
+
+19:35:34.032 [main] DEBUG com.intuit.karate - response time in milliseconds: 49.07
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:34 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:34.017+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:34.034 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 49, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:34.017+00:00","status":403}
+19:35:34.067 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:35:34.094 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"username":"1637793334083","password":"123"}
+
+19:35:34.111 [main] DEBUG com.intuit.karate - response time in milliseconds: 14.77
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:34 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:34.108+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:34.112 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 15, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:34.108+00:00","status":403}
+19:36:50.313 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+19:36:50.317 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:karate/CreatePlanet.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+19:37:32.456 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:37:33.901 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"username":"1637793452664","password":"123"}
+
+19:37:33.956 [main] DEBUG com.intuit.karate - response time in milliseconds: 51.72
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:37:33 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:37:33.941+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:37:33.958 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 52, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:37:33.941+00:00","status":403}
+19:37:34.000 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:37:34.017 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"username":"1637793454011","password":"123"}
+
+19:37:34.039 [main] DEBUG com.intuit.karate - response time in milliseconds: 20.55
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:37:33 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:37:34.035+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:37:34.041 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 21, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:37:34.035+00:00","status":403}
+19:49:17.615 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:49:17.850 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:50:03.883 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:50:04.096 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:53:29.927 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:53:31.225 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:53:31.316 [main] DEBUG com.intuit.karate - response time in milliseconds: 86.82
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:53:31 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:53:31.296+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:53:31.319 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 87, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:53:31.296+00:00","status":403}
+19:53:31.387 [main] INFO  com.intuit.karate - karate.env system property was:  
+19:53:31.434 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:53:31.450 [main] DEBUG com.intuit.karate - response time in milliseconds: 12.88
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:53:31 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:53:31.443+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:53:31.452 [main] ERROR com.intuit.karate - status code was: 403, expected: 201, response time: 13, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:53:31.443+00:00","status":403}

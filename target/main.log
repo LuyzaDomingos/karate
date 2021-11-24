@@ -1,0 +1,84 @@
+19:53:29.935 karate.env system property was:  
+19:53:31.225 request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:53:31.316 response time in milliseconds: 86.82
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:53:31 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:53:31.296+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:53:31.319 status code was: 403, expected: 201, response time: 87, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:53:31.296+00:00","status":403}
+19:53:31.392 karate.env system property was:  
+19:53:31.436 request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+19:53:31.451 response time in milliseconds: 12.88
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:53:31 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:53:31.443+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:53:31.452 status code was: 403, expected: 201, response time: 13, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:53:31.443+00:00","status":403}
+9:35:18.906 karate.env system property was:  
+19:35:18.910 request:
+1 > POST http://localhost:8081/signup
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"12345667890"}
+
+19:35:18.932 response time in milliseconds: 20.95
+1 < 403
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 24 Nov 2021 22:35:18 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"timestamp":"2021-11-24T22:35:18.929+00:00","status":403,"error":"Forbidden","message":"Access Denied","path":"/signup"}
+
+19:35:18.933 status code was: 403, expected: 400, response time: 21, url: http://localhost:8081/signup, response: {"path":"/signup","error":"Forbidden","message":"Access Denied","timestamp":"2021-11-24T22:35:18.929+00:00","status":403}

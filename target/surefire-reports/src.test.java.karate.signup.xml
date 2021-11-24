@@ -1,0 +1,92 @@
+<testsuite failures="3" name="src/test/java/karate/signup.feature" skipped="0" tests="3" time="13.527147">
+  <testcase classname="src.test.java.karate.signup" name="Creates a new user" time="5.298275">
+    <failure message="signup.feature:12 - &#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect">* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"lu@email.com", "loginPassword":"1" } ............... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:12 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:12)&#13;
+
+Then status 201 ........................................................... skipped
+* print response .......................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.karate.signup" name="Cannot create user with invalid username" time="4.126314">
+    <failure message="signup.feature:20 - &#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect">* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"lu@email.com", "loginPassword":"1" } ............... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:12 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:12)&#13;
+
+Then status 201 ........................................................... skipped
+* print response .......................................................... skipped
+* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"test@email.com", "loginPassword":"1" } ............. passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:20 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:20)&#13;
+
+Then status 400 ........................................................... skipped
+* print response .......................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.karate.signup" name="Cannot create user with invalid password" time="4.102559">
+    <failure message="signup.feature:28 - &#10;org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect">* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"lu@email.com", "loginPassword":"1" } ............... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:12 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:12)&#13;
+
+Then status 201 ........................................................... skipped
+* print response .......................................................... skipped
+* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"test@email.com", "loginPassword":"1" } ............. passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:20 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:20)&#13;
+
+Then status 400 ........................................................... skipped
+* print response .......................................................... skipped
+* url 'http://localhost:8081' ............................................. passed
+* header Content-Type = 'application/json' ................................ passed
+* header Accept = 'application/json' ...................................... passed
+Given path 'signup' ....................................................... passed
+And request { "email":"lu@email.com", "loginPassword":"12345667890" } ..... passed
+When method post .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: signup.feature:28 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect&#13;
+	at ✽.When method post (signup.feature:28)&#13;
+
+Then status 400 ........................................................... skipped
+* print response .......................................................... skipped</failure>
+  </testcase>
+</testsuite>
