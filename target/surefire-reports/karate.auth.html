@@ -46,7 +46,7 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-11-25 10:14:12 AM</div>
+                <div id="nav-date">2021-11-25 11:10:58 AM</div>
                         
       
                 <div class="nav-container">
@@ -70,7 +70,7 @@
                             <div class="scenario-tags"></div>
                             <span class="scenario-keyword">Scenario: [1:12]</span><span class="scenario-name">Create user then log in </span>
                         </div>
-                        <div class="scenario-time passed">ms: 167</div>
+                        <div class="scenario-time passed">ms: 133</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[1:12]bg">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="1">10:14:12.532 karate.env system property was:</div>
+                    <div class="preformatted" data-parent="1">11:10:58.568 karate.env system property was:</div>
                     <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
@@ -113,14 +113,14 @@
                             <div class="step-ref bg-step">5</div>
                             <div class="step-cell passed">* def timeNow = call now</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell passed">2</div>
                     </div>
                     <div class="step-row" data-parent="[1:12]bg">
                         <div class="step-container" id="6">
                             <div class="step-ref bg-step">6</div>
                             <div class="step-cell passed">* def username = ("" + timeNow)</div>
                         </div>
-                        <div class="time-cell passed">8</div>
+                        <div class="time-cell passed">1</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="7">
@@ -141,9 +141,9 @@
                             <div class="step-ref passed">9</div>
                             <div class="step-cell passed">When method post</div>
                         </div>
-                        <div class="time-cell passed">153</div>
+                        <div class="time-cell passed">127</div>
                     </div>
-                    <div class="preformatted" data-parent="9">10:14:12.553 request:
+                    <div class="preformatted" data-parent="9">11:10:58.576 request:
 1 &gt; POST http://localhost:8081/auth
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -154,12 +154,12 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:12.700 response time in milliseconds: 145.10
+11:10:58.699 response time in milliseconds: 122.29
 1 &lt; 200
 1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 25 Nov 2021 13:14:11 GMT
+1 &lt; Date: Thu, 25 Nov 2021 14:10:58 GMT
 1 &lt; Expires: 0
 1 &lt; Keep-Alive: timeout=60
 1 &lt; Pragma: no-cache
@@ -167,7 +167,7 @@
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Frame-Options: DENY
 1 &lt; X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM","type":"Bearer"}</div>
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI","type":"Bearer"}</div>
                     <div class="step-row">
                         <div class="step-container" id="10">
                             <div class="step-ref passed">10</div>
@@ -180,11 +180,11 @@
                             <div class="step-ref passed">11</div>
                             <div class="step-cell passed">* print response</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="preformatted" data-parent="11">10:14:12.701 [print] {
+                    <div class="preformatted" data-parent="11">11:10:58.701 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI"
 }</div>
                     <div class="step-row">
                         <div class="step-container" id="12">
@@ -207,7 +207,7 @@
                             <div class="scenario-tags"></div>
                             <span class="scenario-keyword">Scenario: [2:21]</span><span class="scenario-name">Dont log in with wrong password and username </span>
                         </div>
-                        <div class="scenario-time passed">ms: 130</div>
+                        <div class="scenario-time passed">ms: 124</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container" id="[2:21]bg">
@@ -223,7 +223,7 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="14">10:14:12.716 karate.env system property was:</div>
+                    <div class="preformatted" data-parent="14">11:10:58.715 karate.env system property was:</div>
                     <div class="step-row" data-parent="[2:21]bg">
                         <div class="step-container" id="15">
                             <div class="step-ref bg-step">15</div>
@@ -250,7 +250,7 @@
                             <div class="step-ref bg-step">18</div>
                             <div class="step-cell passed">* def timeNow = call now</div>
                         </div>
-                        <div class="time-cell passed">2</div>
+                        <div class="time-cell passed">1</div>
                     </div>
                     <div class="step-row" data-parent="[2:21]bg">
                         <div class="step-container" id="19">
@@ -278,9 +278,9 @@
                             <div class="step-ref passed">22</div>
                             <div class="step-cell passed">When method post</div>
                         </div>
-                        <div class="time-cell passed">126</div>
+                        <div class="time-cell passed">121</div>
                     </div>
-                    <div class="preformatted" data-parent="22">10:14:12.722 request:
+                    <div class="preformatted" data-parent="22">11:10:58.720 request:
 1 &gt; POST http://localhost:8081/auth
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -291,12 +291,12 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"12345"}
 
-10:14:12.846 response time in milliseconds: 123.88
+11:10:58.839 response time in milliseconds: 118.64
 1 &lt; 400
 1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 &lt; Connection: close
 1 &lt; Content-Length: 0
-1 &lt; Date: Thu, 25 Nov 2021 13:14:12 GMT
+1 &lt; Date: Thu, 25 Nov 2021 14:10:58 GMT
 1 &lt; Expires: 0
 1 &lt; Pragma: no-cache
 1 &lt; X-Content-Type-Options: nosniff
@@ -316,7 +316,7 @@
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="24">10:14:12.846 [print]</div>
+                    <div class="preformatted" data-parent="24">11:10:58.840 [print]</div>
                 </div>
             </div>
                 

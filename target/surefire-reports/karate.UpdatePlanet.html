@@ -35,7 +35,7 @@
           
                     <div class="nav-count">
                                     
-                        <div class="bg-success" id="nav-pass">1</div>
+                        <div class="bg-success" id="nav-pass">2</div>
                                     
                         <div class="bg-danger" id="nav-fail">0</div>
                                   
@@ -46,12 +46,15 @@
                 <div id="nav-type">Scenarios</div>
                          
         
-                <div id="nav-date">2021-11-25 10:14:14 AM</div>
+                <div id="nav-date">2021-11-25 11:11:02 AM</div>
                         
       
                 <div class="nav-container">
                     <div class="nav-item passed">
-                        <a href="#[1:45]">[1:45] Trying update a planet that dont exist </a>
+                        <a href="#[1:36]">[1:36] Update a planet and delete </a>
+                    </div>
+                    <div class="nav-item passed">
+                        <a href="#[2:52]">[2:52] Trying update a planet that dont exist </a>
                     </div>
                 </div>
             </div>
@@ -62,85 +65,85 @@
                     <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">karate/UpdatePlanet.feature</span><span class="feature-description">Create and Delete a Planet of Star Wars Universe</span>
                 </div>
                 <div class="scenario">
-                    <div class="scenario-heading" id="[1:45]">
+                    <div class="scenario-heading" id="[1:36]">
                         <div class="heading-container">
                             <div class="scenario-tags"></div>
-                            <span class="scenario-keyword">Scenario: [1:45]</span><span class="scenario-name">Trying update a planet that dont exist </span>
+                            <span class="scenario-keyword">Scenario: [1:36]</span><span class="scenario-name">Update a planet and delete </span>
                         </div>
-                        <div class="scenario-time passed">ms: 1792</div>
+                        <div class="scenario-time passed">ms: 1948</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="[1:45]bg">
+                        <div class="step-container" id="[1:36]bg">
                             <div class="step-ref bg-step">&gt;&gt;</div>
                             <div class="step-cell passed">Background:</div>
                         </div>
                         <div class="time-cell passed"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="1">
                             <div class="step-ref bg-step">1</div>
                             <div class="step-cell passed">* url 'http://localhost:8081'</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="1">10:14:12.919 karate.env system property was:</div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="preformatted" data-parent="1">11:10:58.937 karate.env system property was:</div>
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="2">
                             <div class="step-ref bg-step">2</div>
                             <div class="step-cell passed">* header Content-Type = 'application/json'</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="3">
                             <div class="step-ref bg-step">3</div>
                             <div class="step-cell passed">* header Accept = 'application/json'</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="4">
                             <div class="step-ref bg-step">4</div>
                             <div class="step-cell passed">* def now = function(){ return java.lang.System.currentTimeMillis() }</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="5">
                             <div class="step-ref bg-step">5</div>
                             <div class="step-cell passed">* def timeNow = call now</div>
                         </div>
-                        <div class="time-cell passed">3</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="6">
                             <div class="step-ref bg-step">6</div>
                             <div class="step-cell passed">* def username = ("" + timeNow)</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="7">
                             <div class="step-ref bg-step">7</div>
                             <div class="step-cell passed">Given path 'auth'</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="8">
                             <div class="step-ref bg-step">8</div>
                             <div class="step-cell passed">And request {"email":"luyza@email.com", "loginPassword":"123" }</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="9">
                             <div class="step-ref bg-step">9</div>
                             <div class="step-cell passed">When method post</div>
                         </div>
-                        <div class="time-cell passed">115</div>
+                        <div class="time-cell passed">157</div>
                     </div>
-                    <div class="preformatted" data-parent="9">10:14:12.929 request:
+                    <div class="preformatted" data-parent="9">11:10:58.946 request:
 1 &gt; POST http://localhost:8081/auth
 1 &gt; Accept: application/json
 1 &gt; Accept-Encoding: gzip,deflate
@@ -151,12 +154,12 @@
 1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:13.042 response time in milliseconds: 111.60
+11:10:59.100 response time in milliseconds: 150.07
 1 &lt; 200
 1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json
-1 &lt; Date: Thu, 25 Nov 2021 13:14:12 GMT
+1 &lt; Date: Thu, 25 Nov 2021 14:10:59 GMT
 1 &lt; Expires: 0
 1 &lt; Keep-Alive: timeout=60
 1 &lt; Pragma: no-cache
@@ -164,233 +167,170 @@
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-Frame-Options: DENY
 1 &lt; X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ","type":"Bearer"}</div>
-                    <div class="step-row" data-parent="[1:45]bg">
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I","type":"Bearer"}</div>
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="10">
                             <div class="step-ref bg-step">10</div>
                             <div class="step-cell passed">Then status 200</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="11">
                             <div class="step-ref bg-step">11</div>
                             <div class="step-cell passed">* print response</div>
                         </div>
-                        <div class="time-cell passed">0</div>
+                        <div class="time-cell passed">1</div>
                     </div>
-                    <div class="preformatted" data-parent="11">10:14:13.043 [print] {
+                    <div class="preformatted" data-parent="11">11:10:59.101 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I"
 }</div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="12">
                             <div class="step-ref bg-step">12</div>
                             <div class="step-cell passed">And match response.type == "Bearer"</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="13">
                             <div class="step-ref bg-step">13</div>
                             <div class="step-cell passed">And match response.token == "#notnull"</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="14">
                             <div class="step-ref bg-step">14</div>
                             <div class="step-cell passed">* def token = response.token</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="15">
                             <div class="step-ref bg-step">15</div>
-                            <div class="step-cell passed">* def planetName = "Dantooine"</div>
+                            <div class="step-cell passed">* def planetName = "Stewjon"</div>
                         </div>
-                        <div class="time-cell passed">0</div>
+                        <div class="time-cell passed">4</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container">
                             <div class="step-ref bg-step"></div>
                             <div class="step-cell comment"># create a new planet</div>
                         </div>
                         <div class="time-cell comment"></div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="16">
                             <div class="step-ref bg-step">16</div>
                             <div class="step-cell passed">Given path 'planets'</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="17">
                             <div class="step-ref bg-step">17</div>
                             <div class="step-cell passed">And header Authorization = 'Bearer ' + token</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="18">
                             <div class="step-ref bg-step">18</div>
-                            <div class="step-cell passed">And request { "name": "Dantooine", "climate":"temperate", "terrain":"oceans, savannas, mountains, grasslands"}</div>
+                            <div class="step-cell passed">And request { "name": "Stewjon", "climate":"temperate", "terrain":"grass"}</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="19">
                             <div class="step-ref bg-step">19</div>
                             <div class="step-cell passed">When method post</div>
                         </div>
-                        <div class="time-cell passed">1524</div>
+                        <div class="time-cell passed">1666</div>
                     </div>
-                    <div class="preformatted" data-parent="19">10:14:13.048 request:
+                    <div class="preformatted" data-parent="19">11:10:59.114 request:
 2 &gt; POST http://localhost:8081/planets
 2 &gt; Accept-Encoding: gzip,deflate
-2 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
+2 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I
 2 &gt; Connection: Keep-Alive
-2 &gt; Content-Length: 94
+2 &gt; Content-Length: 58
 2 &gt; Content-Type: application/json; charset=UTF-8
 2 &gt; Host: localhost:8081
 2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
-{"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands"}
+{"name":"Stewjon","climate":"temperate","terrain":"grass"}
 
-10:14:14.570 response time in milliseconds: 1519.38
+11:11:00.777 response time in milliseconds: 1659.52
 2 &lt; 201
 2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 2 &lt; Connection: keep-alive
 2 &lt; Content-Type: application/json
-2 &lt; Date: Thu, 25 Nov 2021 13:14:14 GMT
+2 &lt; Date: Thu, 25 Nov 2021 14:11:00 GMT
 2 &lt; Expires: 0
 2 &lt; Keep-Alive: timeout=60
-2 &lt; Location: http://localhost:8081/planets/43
+2 &lt; Location: http://localhost:8081/planets/34
 2 &lt; Pragma: no-cache
 2 &lt; Transfer-Encoding: chunked
 2 &lt; X-Content-Type-Options: nosniff
 2 &lt; X-Frame-Options: DENY
 2 &lt; X-XSS-Protection: 1; mode=block
-{"id":43,"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands","numberFilms":0,"numberOfResidents":0}</div>
-                    <div class="step-row" data-parent="[1:45]bg">
+{"id":34,"name":"Stewjon","climate":"temperate","terrain":"grass","numberFilms":0,"numberOfResidents":1}</div>
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="20">
                             <div class="step-ref bg-step">20</div>
                             <div class="step-cell passed">Then status 201</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="21">
                             <div class="step-ref bg-step">21</div>
                             <div class="step-cell passed">* print response</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">2</div>
                     </div>
-                    <div class="preformatted" data-parent="21">10:14:14.577 [print] {
+                    <div class="preformatted" data-parent="21">11:11:00.783 [print] {
   "numberFilms": 0,
-  "name": "Dantooine",
-  "numberOfResidents": 0,
-  "id": 43,
+  "name": "Stewjon",
+  "numberOfResidents": 1,
+  "id": 34,
   "climate": "temperate",
-  "terrain": "oceans, savannas, mountains, grasslands"
+  "terrain": "grass"
 }</div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="22">
                             <div class="step-ref bg-step">22</div>
-                            <div class="step-cell passed">And match response.name == "Dantooine"</div>
+                            <div class="step-cell passed">And match response.name == "Stewjon"</div>
                         </div>
                         <div class="time-cell passed">1</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="23">
                             <div class="step-ref bg-step">23</div>
                             <div class="step-cell passed">And match response.climate == "temperate"</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="24">
                             <div class="step-ref bg-step">24</div>
-                            <div class="step-cell passed">And match response.terrain == "oceans, savannas, mountains, grasslands"</div>
+                            <div class="step-cell passed">And match response.terrain == "grass"</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">7</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
+                    <div class="step-row" data-parent="[1:36]bg">
                         <div class="step-container" id="25">
                             <div class="step-ref bg-step">25</div>
                             <div class="step-cell passed">* def planetId = response.id</div>
                         </div>
-                        <div class="time-cell passed">9</div>
+                        <div class="time-cell passed">6</div>
                     </div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container">
-                            <div class="step-ref bg-step"></div>
-                            <div class="step-cell comment"># delete the planet</div>
-                        </div>
-                        <div class="time-cell comment"></div>
-                    </div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container" id="26">
-                            <div class="step-ref bg-step">26</div>
-                            <div class="step-cell passed">Given path 'planets/' + response.id</div>
-                        </div>
-                        <div class="time-cell passed">1</div>
-                    </div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container" id="27">
-                            <div class="step-ref bg-step">27</div>
-                            <div class="step-cell passed">And header Authorization = 'Bearer ' + token</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container" id="28">
-                            <div class="step-ref bg-step">28</div>
-                            <div class="step-cell passed">When method delete</div>
-                        </div>
-                        <div class="time-cell passed">60</div>
-                    </div>
-                    <div class="preformatted" data-parent="28">10:14:14.594 request:
-3 &gt; DELETE http://localhost:8081/planets/43
-3 &gt; Accept-Encoding: gzip,deflate
-3 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
-3 &gt; Connection: Keep-Alive
-3 &gt; Host: localhost:8081
-3 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
-
-10:14:14.651 response time in milliseconds: 56.27
-3 &lt; 200
-3 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-3 &lt; Connection: keep-alive
-3 &lt; Content-Length: 0
-3 &lt; Date: Thu, 25 Nov 2021 13:14:14 GMT
-3 &lt; Expires: 0
-3 &lt; Keep-Alive: timeout=60
-3 &lt; Pragma: no-cache
-3 &lt; X-Content-Type-Options: nosniff
-3 &lt; X-Frame-Options: DENY
-3 &lt; X-XSS-Protection: 1; mode=block</div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container" id="29">
-                            <div class="step-ref bg-step">29</div>
-                            <div class="step-cell passed">Then status 200</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row" data-parent="[1:45]bg">
-                        <div class="step-container" id="30">
-                            <div class="step-ref bg-step">30</div>
-                            <div class="step-cell passed">* print response</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="preformatted" data-parent="30">10:14:14.652 [print]</div>
                     <div class="step-row">
-                        <div class="step-container" id="31">
-                            <div class="step-ref passed">31</div>
+                        <div class="step-container" id="26">
+                            <div class="step-ref passed">26</div>
                             <div class="step-cell passed">* def planetName = "Nal Hutta"</div>
                         </div>
-                        <div class="time-cell passed">5</div>
+                        <div class="time-cell passed">4</div>
                     </div>
                     <div class="step-row">
                         <div class="step-container">
@@ -400,82 +340,454 @@
                         <div class="time-cell comment"></div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="32">
-                            <div class="step-ref passed">32</div>
+                        <div class="step-container" id="27">
+                            <div class="step-ref passed">27</div>
                             <div class="step-cell passed">Given path 'planets/' + planetId</div>
                         </div>
-                        <div class="time-cell passed">6</div>
+                        <div class="time-cell passed">5</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="33">
-                            <div class="step-ref passed">33</div>
+                        <div class="step-container" id="28">
+                            <div class="step-ref passed">28</div>
                             <div class="step-cell passed">And header Authorization = 'Bearer ' + token</div>
                         </div>
-                        <div class="time-cell passed">1</div>
+                        <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="34">
-                            <div class="step-ref passed">34</div>
+                        <div class="step-container" id="29">
+                            <div class="step-ref passed">29</div>
                             <div class="step-cell passed">And request { "name": "Nal Hutta", "climate":"temperate", "terrain":"urban, oceans, swamps, bogs"}</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="35">
-                            <div class="step-ref passed">35</div>
+                        <div class="step-container" id="30">
+                            <div class="step-ref passed">30</div>
                             <div class="step-cell passed">When method put</div>
                         </div>
-                        <div class="time-cell passed">50</div>
+                        <div class="time-cell passed">79</div>
                     </div>
-                    <div class="preformatted" data-parent="35">10:14:14.667 request:
-4 &gt; PUT http://localhost:8081/planets/43
-4 &gt; Accept-Encoding: gzip,deflate
-4 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
-4 &gt; Connection: Keep-Alive
-4 &gt; Content-Length: 82
-4 &gt; Content-Type: application/json; charset=UTF-8
-4 &gt; Host: localhost:8081
-4 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+                    <div class="preformatted" data-parent="30">11:11:00.810 request:
+3 &gt; PUT http://localhost:8081/planets/34
+3 &gt; Accept-Encoding: gzip,deflate
+3 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I
+3 &gt; Connection: Keep-Alive
+3 &gt; Content-Length: 82
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Host: localhost:8081
+3 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"name":"Nal Hutta","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
 
-10:14:14.715 response time in milliseconds: 46.56
-4 &lt; 404
-4 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-4 &lt; Connection: keep-alive
-4 &lt; Content-Type: application/json
-4 &lt; Date: Thu, 25 Nov 2021 13:14:14 GMT
-4 &lt; Expires: 0
-4 &lt; Keep-Alive: timeout=60
-4 &lt; Pragma: no-cache
-4 &lt; Transfer-Encoding: chunked
-4 &lt; X-Content-Type-Options: nosniff
-4 &lt; X-Frame-Options: DENY
-4 &lt; X-XSS-Protection: 1; mode=block
+11:11:00.887 response time in milliseconds: 75.29
+3 &lt; 200
+3 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 &lt; Connection: keep-alive
+3 &lt; Content-Type: application/json
+3 &lt; Date: Thu, 25 Nov 2021 14:11:00 GMT
+3 &lt; Expires: 0
+3 &lt; Keep-Alive: timeout=60
+3 &lt; Pragma: no-cache
+3 &lt; Transfer-Encoding: chunked
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Frame-Options: DENY
+3 &lt; X-XSS-Protection: 1; mode=block
+{"id":34,"name":"Nal Hutta","climate":"temperate","terrain":"urban, oceans, swamps, bogs","numberFilms":0,"numberOfResidents":1}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="31">
+                            <div class="step-ref passed">31</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="32">
+                            <div class="step-ref passed">32</div>
+                            <div class="step-cell passed">* print response</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="32">11:11:00.888 [print] {
+  "numberFilms": 0,
+  "name": "Nal Hutta",
+  "numberOfResidents": 1,
+  "id": 34,
+  "climate": "temperate",
+  "terrain": "urban, oceans, swamps, bogs"
+}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="33">
+                            <div class="step-ref passed">33</div>
+                            <div class="step-cell passed">And match response.name == "Nal Hutta"</div>
+                        </div>
+                        <div class="time-cell passed">2</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="34">
+                            <div class="step-ref passed">34</div>
+                            <div class="step-cell passed">And match response.climate == "temperate"</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="35">
+                            <div class="step-ref passed">35</div>
+                            <div class="step-cell passed">And match response.terrain == "urban, oceans, swamps, bogs"</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:52]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [2:52]</span><span class="scenario-name">Trying update a planet that dont exist </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1821</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[2:52]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="36">
+                            <div class="step-ref bg-step">36</div>
+                            <div class="step-cell passed">* url 'http://localhost:8081'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="36">11:11:00.909 karate.env system property was:</div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="37">
+                            <div class="step-ref bg-step">37</div>
+                            <div class="step-cell passed">* header Content-Type = 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="38">
+                            <div class="step-ref bg-step">38</div>
+                            <div class="step-cell passed">* header Accept = 'application/json'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="39">
+                            <div class="step-ref bg-step">39</div>
+                            <div class="step-cell passed">* def now = function(){ return java.lang.System.currentTimeMillis() }</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="40">
+                            <div class="step-ref bg-step">40</div>
+                            <div class="step-cell passed">* def timeNow = call now</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="41">
+                            <div class="step-ref bg-step">41</div>
+                            <div class="step-cell passed">* def username = ("" + timeNow)</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="42">
+                            <div class="step-ref bg-step">42</div>
+                            <div class="step-cell passed">Given path 'auth'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="43">
+                            <div class="step-ref bg-step">43</div>
+                            <div class="step-cell passed">And request {"email":"luyza@email.com", "loginPassword":"123" }</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="44">
+                            <div class="step-ref bg-step">44</div>
+                            <div class="step-cell passed">When method post</div>
+                        </div>
+                        <div class="time-cell passed">135</div>
+                    </div>
+                    <div class="preformatted" data-parent="44">11:11:00.917 request:
+1 &gt; POST http://localhost:8081/auth
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 49
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: localhost:8081
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+11:11:01.050 response time in milliseconds: 131.41
+1 &lt; 200
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Thu, 25 Nov 2021 14:11:00 GMT
+1 &lt; Expires: 0
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Pragma: no-cache
+1 &lt; Transfer-Encoding: chunked
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-XSS-Protection: 1; mode=block
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc","type":"Bearer"}</div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="45">
+                            <div class="step-ref bg-step">45</div>
+                            <div class="step-cell passed">Then status 200</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="46">
+                            <div class="step-ref bg-step">46</div>
+                            <div class="step-cell passed">* print response</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="46">11:11:01.051 [print] {
+  "type": "Bearer",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc"
+}</div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="47">
+                            <div class="step-ref bg-step">47</div>
+                            <div class="step-cell passed">And match response.type == "Bearer"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="48">
+                            <div class="step-ref bg-step">48</div>
+                            <div class="step-cell passed">And match response.token == "#notnull"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="49">
+                            <div class="step-ref bg-step">49</div>
+                            <div class="step-cell passed">* def token = response.token</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="50">
+                            <div class="step-ref bg-step">50</div>
+                            <div class="step-cell passed">* def planetName = "Stewjon"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container">
+                            <div class="step-ref bg-step"></div>
+                            <div class="step-cell comment"># create a new planet</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="51">
+                            <div class="step-ref bg-step">51</div>
+                            <div class="step-cell passed">Given path 'planets'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="52">
+                            <div class="step-ref bg-step">52</div>
+                            <div class="step-cell passed">And header Authorization = 'Bearer ' + token</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="53">
+                            <div class="step-ref bg-step">53</div>
+                            <div class="step-cell passed">And request { "name": "Stewjon", "climate":"temperate", "terrain":"grass"}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="54">
+                            <div class="step-ref bg-step">54</div>
+                            <div class="step-cell passed">When method post</div>
+                        </div>
+                        <div class="time-cell passed">1637</div>
+                    </div>
+                    <div class="preformatted" data-parent="54">11:11:01.055 request:
+2 &gt; POST http://localhost:8081/planets
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc
+2 &gt; Connection: Keep-Alive
+2 &gt; Content-Length: 58
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Host: localhost:8081
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Stewjon","climate":"temperate","terrain":"grass"}
+
+11:11:02.691 response time in milliseconds: 1634.64
+2 &lt; 201
+2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json
+2 &lt; Date: Thu, 25 Nov 2021 14:11:02 GMT
+2 &lt; Expires: 0
+2 &lt; Keep-Alive: timeout=60
+2 &lt; Location: http://localhost:8081/planets/35
+2 &lt; Pragma: no-cache
+2 &lt; Transfer-Encoding: chunked
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Frame-Options: DENY
+2 &lt; X-XSS-Protection: 1; mode=block
+{"id":35,"name":"Stewjon","climate":"temperate","terrain":"grass","numberFilms":0,"numberOfResidents":1}</div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="55">
+                            <div class="step-ref bg-step">55</div>
+                            <div class="step-cell passed">Then status 201</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="56">
+                            <div class="step-ref bg-step">56</div>
+                            <div class="step-cell passed">* print response</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="56">11:11:02.692 [print] {
+  "numberFilms": 0,
+  "name": "Stewjon",
+  "numberOfResidents": 1,
+  "id": 35,
+  "climate": "temperate",
+  "terrain": "grass"
+}</div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="57">
+                            <div class="step-ref bg-step">57</div>
+                            <div class="step-cell passed">And match response.name == "Stewjon"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="58">
+                            <div class="step-ref bg-step">58</div>
+                            <div class="step-cell passed">And match response.climate == "temperate"</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="59">
+                            <div class="step-ref bg-step">59</div>
+                            <div class="step-cell passed">And match response.terrain == "grass"</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row" data-parent="[2:52]bg">
+                        <div class="step-container" id="60">
+                            <div class="step-ref bg-step">60</div>
+                            <div class="step-cell passed">* def planetId = response.id</div>
+                        </div>
+                        <div class="time-cell passed">1</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="61">
+                            <div class="step-ref passed">61</div>
+                            <div class="step-cell passed">* def planetName = "Earth"</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref passed"></div>
+                            <div class="step-cell comment"># update a planet</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="62">
+                            <div class="step-ref passed">62</div>
+                            <div class="step-cell passed">Given path 'planets/900'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="63">
+                            <div class="step-ref passed">63</div>
+                            <div class="step-cell passed">And header Authorization = 'Bearer ' + token</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="64">
+                            <div class="step-ref passed">64</div>
+                            <div class="step-cell passed">And request { "name": "Earth", "climate":"temperate", "terrain":"urban, oceans, swamps, bogs"}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="65">
+                            <div class="step-ref passed">65</div>
+                            <div class="step-cell passed">When method put</div>
+                        </div>
+                        <div class="time-cell passed">33</div>
+                    </div>
+                    <div class="preformatted" data-parent="65">11:11:02.700 request:
+3 &gt; PUT http://localhost:8081/planets/900
+3 &gt; Accept-Encoding: gzip,deflate
+3 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc
+3 &gt; Connection: Keep-Alive
+3 &gt; Content-Length: 78
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Host: localhost:8081
+3 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Earth","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
+
+11:11:02.731 response time in milliseconds: 30.04
+3 &lt; 404
+3 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 &lt; Connection: keep-alive
+3 &lt; Content-Type: application/json
+3 &lt; Date: Thu, 25 Nov 2021 14:11:02 GMT
+3 &lt; Expires: 0
+3 &lt; Keep-Alive: timeout=60
+3 &lt; Pragma: no-cache
+3 &lt; Transfer-Encoding: chunked
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Frame-Options: DENY
+3 &lt; X-XSS-Protection: 1; mode=block
 {"field":"id","message":"The planet you are looking for doesn't exist"}</div>
                     <div class="step-row">
-                        <div class="step-container" id="36">
-                            <div class="step-ref passed">36</div>
+                        <div class="step-container" id="66">
+                            <div class="step-ref passed">66</div>
                             <div class="step-cell passed">Then status 404</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
                     <div class="step-row">
-                        <div class="step-container" id="37">
-                            <div class="step-ref passed">37</div>
+                        <div class="step-container" id="67">
+                            <div class="step-ref passed">67</div>
                             <div class="step-cell passed">* print response</div>
                         </div>
                         <div class="time-cell passed">0</div>
                     </div>
-                    <div class="preformatted" data-parent="37">10:14:14.716 [print] {
+                    <div class="preformatted" data-parent="67">11:11:02.732 [print] {
   "field": "id",
   "message": "The planet you are looking for doesn't exist"
 }</div>
                     <div class="step-row">
-                        <div class="step-container" id="38">
-                            <div class="step-ref passed">38</div>
+                        <div class="step-container" id="68">
+                            <div class="step-ref passed">68</div>
                             <div class="step-cell passed">And match response.message == "The planet you are looking for doesn't exist"</div>
                         </div>
-                        <div class="time-cell passed">4</div>
+                        <div class="time-cell passed">3</div>
                     </div>
                 </div>
             </div>

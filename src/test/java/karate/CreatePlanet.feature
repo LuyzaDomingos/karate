@@ -19,7 +19,6 @@ Feature: Create and Delete a Planet of Star Wars Universe
     * def token = response.token
     
    
-    
    Scenario: Create a new planet  and delete
    
    	* def planetName = "Dantooine"

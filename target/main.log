@@ -1,5 +1,5 @@
-10:14:08.114 karate.env system property was:  
-10:14:09.639 request:
+11:10:54.332 karate.env system property was:  
+11:10:55.563 request:
 1 > POST http://localhost:8081/auth
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -10,12 +10,12 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:09.832 response time in milliseconds: 186.85
+11:10:55.735 response time in milliseconds: 169.18
 1 < 200
 1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 < Connection: keep-alive
 1 < Content-Type: application/json
-1 < Date: Thu, 25 Nov 2021 13:14:09 GMT
+1 < Date: Thu, 25 Nov 2021 14:10:55 GMT
 1 < Expires: 0
 1 < Keep-Alive: timeout=60
 1 < Pragma: no-cache
@@ -23,17 +23,17 @@
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: DENY
 1 < X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA0OSwiZXhwIjoxNjM3OTMyNDQ5fQ.daymq5rtur_BnSTOrC2uzl2naIyH_VPArDBh0aiW8MA","type":"Bearer"}
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1NSwiZXhwIjoxNjM3OTM1ODU1fQ.FGi3TvLV_YsWGU2EmwYElSyzsnl-87oykB0ThPRBVuY","type":"Bearer"}
 
-10:14:09.834 [print] {
+11:10:55.738 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA0OSwiZXhwIjoxNjM3OTMyNDQ5fQ.daymq5rtur_BnSTOrC2uzl2naIyH_VPArDBh0aiW8MA"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1NSwiZXhwIjoxNjM3OTM1ODU1fQ.FGi3TvLV_YsWGU2EmwYElSyzsnl-87oykB0ThPRBVuY"
 }
 
-10:14:09.889 request:
+11:10:55.784 request:
 2 > POST http://localhost:8081/planets
 2 > Accept-Encoding: gzip,deflate
-2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA0OSwiZXhwIjoxNjM3OTMyNDQ5fQ.daymq5rtur_BnSTOrC2uzl2naIyH_VPArDBh0aiW8MA
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1NSwiZXhwIjoxNjM3OTM1ODU1fQ.FGi3TvLV_YsWGU2EmwYElSyzsnl-87oykB0ThPRBVuY
 2 > Connection: Keep-Alive
 2 > Content-Length: 94
 2 > Content-Type: application/json; charset=UTF-8
@@ -41,45 +41,45 @@
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands"}
 
-10:14:11.840 response time in milliseconds: 1948.21
+11:10:58.046 response time in milliseconds: 2260.11
 2 < 201
 2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 2 < Connection: keep-alive
 2 < Content-Type: application/json
-2 < Date: Thu, 25 Nov 2021 13:14:11 GMT
+2 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 2 < Expires: 0
 2 < Keep-Alive: timeout=60
-2 < Location: http://localhost:8081/planets/42
+2 < Location: http://localhost:8081/planets/33
 2 < Pragma: no-cache
 2 < Transfer-Encoding: chunked
 2 < X-Content-Type-Options: nosniff
 2 < X-Frame-Options: DENY
 2 < X-XSS-Protection: 1; mode=block
-{"id":42,"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands","numberFilms":0,"numberOfResidents":0}
+{"id":33,"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands","numberFilms":0,"numberOfResidents":0}
 
-10:14:11.845 [print] {
+11:10:58.048 [print] {
   "numberFilms": 0,
   "name": "Dantooine",
   "numberOfResidents": 0,
-  "id": 42,
+  "id": 33,
   "climate": "temperate",
   "terrain": "oceans, savannas, mountains, grasslands"
 }
 
-10:14:11.882 request:
-3 > DELETE http://localhost:8081/planets/42
+11:10:58.067 request:
+3 > DELETE http://localhost:8081/planets/33
 3 > Accept-Encoding: gzip,deflate
-3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA0OSwiZXhwIjoxNjM3OTMyNDQ5fQ.daymq5rtur_BnSTOrC2uzl2naIyH_VPArDBh0aiW8MA
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1NSwiZXhwIjoxNjM3OTM1ODU1fQ.FGi3TvLV_YsWGU2EmwYElSyzsnl-87oykB0ThPRBVuY
 3 > Connection: Keep-Alive
 3 > Host: localhost:8081
 3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 
-10:14:11.952 response time in milliseconds: 68.69
+11:10:58.139 response time in milliseconds: 70.00
 3 < 200
 3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 3 < Connection: keep-alive
 3 < Content-Length: 0
-3 < Date: Thu, 25 Nov 2021 13:14:11 GMT
+3 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 3 < Expires: 0
 3 < Keep-Alive: timeout=60
 3 < Pragma: no-cache
@@ -87,9 +87,9 @@
 3 < X-Frame-Options: DENY
 3 < X-XSS-Protection: 1; mode=block
 
-10:14:11.955 [print] 
-10:14:11.985 karate.env system property was:  
-10:14:11.995 request:
+11:10:58.143 [print] 
+11:10:58.169 karate.env system property was:  
+11:10:58.203 request:
 1 > POST http://localhost:8081/auth
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -100,12 +100,12 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:12.102 response time in milliseconds: 106.46
+11:10:58.348 response time in milliseconds: 144.25
 1 < 200
 1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 < Connection: keep-alive
 1 < Content-Type: application/json
-1 < Date: Thu, 25 Nov 2021 13:14:11 GMT
+1 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 1 < Expires: 0
 1 < Keep-Alive: timeout=60
 1 < Pragma: no-cache
@@ -113,27 +113,27 @@
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: DENY
 1 < X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM","type":"Bearer"}
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI","type":"Bearer"}
 
-10:14:12.103 [print] {
+11:10:58.349 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI"
 }
 
-10:14:12.111 request:
+11:10:58.357 request:
 2 > DELETE http://localhost:8081/planets/900
 2 > Accept-Encoding: gzip,deflate
-2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI
 2 > Connection: Keep-Alive
 2 > Host: localhost:8081
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 
-10:14:12.143 response time in milliseconds: 30.97
+11:10:58.384 response time in milliseconds: 26.69
 2 < 404
 2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 2 < Connection: keep-alive
 2 < Content-Type: application/json
-2 < Date: Thu, 25 Nov 2021 13:14:11 GMT
+2 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 2 < Expires: 0
 2 < Keep-Alive: timeout=60
 2 < Pragma: no-cache
@@ -143,13 +143,13 @@
 2 < X-XSS-Protection: 1; mode=block
 {"field":"id","message":"Id dont exist"}
 
-10:14:12.144 [print] {
+11:10:58.385 [print] {
   "field": "id",
   "message": "Id dont exist"
 }
 
-10:14:12.532 karate.env system property was:  
-10:14:12.553 request:
+11:10:58.568 karate.env system property was:  
+11:10:58.576 request:
 1 > POST http://localhost:8081/auth
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -160,12 +160,12 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:12.700 response time in milliseconds: 145.10
+11:10:58.699 response time in milliseconds: 122.29
 1 < 200
 1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 < Connection: keep-alive
 1 < Content-Type: application/json
-1 < Date: Thu, 25 Nov 2021 13:14:11 GMT
+1 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 1 < Expires: 0
 1 < Keep-Alive: timeout=60
 1 < Pragma: no-cache
@@ -173,15 +173,15 @@
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: DENY
 1 < X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM","type":"Bearer"}
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI","type":"Bearer"}
 
-10:14:12.701 [print] {
+11:10:58.701 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MiwiZXhwIjoxNjM3OTMyNDUyfQ.-LDQw9Cszo_kJerPnloh_j392WobRxr9S-l1xIvzECM"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OCwiZXhwIjoxNjM3OTM1ODU4fQ.jxGq60xFlvnFAn4f7bkvbCuk0su35JSRt0h5AWtjkVI"
 }
 
-10:14:12.716 karate.env system property was:  
-10:14:12.722 request:
+11:10:58.715 karate.env system property was:  
+11:10:58.720 request:
 1 > POST http://localhost:8081/auth
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -192,21 +192,21 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"12345"}
 
-10:14:12.846 response time in milliseconds: 123.88
+11:10:58.839 response time in milliseconds: 118.64
 1 < 400
 1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 < Connection: close
 1 < Content-Length: 0
-1 < Date: Thu, 25 Nov 2021 13:14:12 GMT
+1 < Date: Thu, 25 Nov 2021 14:10:58 GMT
 1 < Expires: 0
 1 < Pragma: no-cache
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: DENY
 1 < X-XSS-Protection: 1; mode=block
 
-10:14:12.846 [print] 
-10:14:12.919 karate.env system property was:  
-10:14:12.929 request:
+11:10:58.840 [print] 
+11:10:58.937 karate.env system property was:  
+11:10:58.946 request:
 1 > POST http://localhost:8081/auth
 1 > Accept: application/json
 1 > Accept-Encoding: gzip,deflate
@@ -217,12 +217,12 @@
 1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
 {"email":"luyza@email.com","loginPassword":"123"}
 
-10:14:13.042 response time in milliseconds: 111.60
+11:10:59.100 response time in milliseconds: 150.07
 1 < 200
 1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 1 < Connection: keep-alive
 1 < Content-Type: application/json
-1 < Date: Thu, 25 Nov 2021 13:14:12 GMT
+1 < Date: Thu, 25 Nov 2021 14:10:59 GMT
 1 < Expires: 0
 1 < Keep-Alive: timeout=60
 1 < Pragma: no-cache
@@ -230,98 +230,204 @@
 1 < X-Content-Type-Options: nosniff
 1 < X-Frame-Options: DENY
 1 < X-XSS-Protection: 1; mode=block
-{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ","type":"Bearer"}
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I","type":"Bearer"}
 
-10:14:13.043 [print] {
+11:10:59.101 [print] {
   "type": "Bearer",
-  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ"
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I"
 }
 
-10:14:13.048 request:
+11:10:59.114 request:
 2 > POST http://localhost:8081/planets
 2 > Accept-Encoding: gzip,deflate
-2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I
 2 > Connection: Keep-Alive
-2 > Content-Length: 94
+2 > Content-Length: 58
 2 > Content-Type: application/json; charset=UTF-8
 2 > Host: localhost:8081
 2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
-{"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands"}
+{"name":"Stewjon","climate":"temperate","terrain":"grass"}
 
-10:14:14.570 response time in milliseconds: 1519.38
+11:11:00.777 response time in milliseconds: 1659.52
 2 < 201
 2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 2 < Connection: keep-alive
 2 < Content-Type: application/json
-2 < Date: Thu, 25 Nov 2021 13:14:14 GMT
+2 < Date: Thu, 25 Nov 2021 14:11:00 GMT
 2 < Expires: 0
 2 < Keep-Alive: timeout=60
-2 < Location: http://localhost:8081/planets/43
+2 < Location: http://localhost:8081/planets/34
 2 < Pragma: no-cache
 2 < Transfer-Encoding: chunked
 2 < X-Content-Type-Options: nosniff
 2 < X-Frame-Options: DENY
 2 < X-XSS-Protection: 1; mode=block
-{"id":43,"name":"Dantooine","climate":"temperate","terrain":"oceans, savannas, mountains, grasslands","numberFilms":0,"numberOfResidents":0}
+{"id":34,"name":"Stewjon","climate":"temperate","terrain":"grass","numberFilms":0,"numberOfResidents":1}
 
-10:14:14.577 [print] {
+11:11:00.783 [print] {
   "numberFilms": 0,
-  "name": "Dantooine",
-  "numberOfResidents": 0,
-  "id": 43,
+  "name": "Stewjon",
+  "numberOfResidents": 1,
+  "id": 34,
   "climate": "temperate",
-  "terrain": "oceans, savannas, mountains, grasslands"
+  "terrain": "grass"
 }
 
-10:14:14.594 request:
-3 > DELETE http://localhost:8081/planets/43
+11:11:00.810 request:
+3 > PUT http://localhost:8081/planets/34
 3 > Accept-Encoding: gzip,deflate
-3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ1OSwiZXhwIjoxNjM3OTM1ODU5fQ.xsZFYqhi_vI1TBTWFbS-Fl82A3q4e0F0tXPnxaFSt-I
 3 > Connection: Keep-Alive
+3 > Content-Length: 82
+3 > Content-Type: application/json; charset=UTF-8
 3 > Host: localhost:8081
 3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Nal Hutta","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
 
-10:14:14.651 response time in milliseconds: 56.27
+11:11:00.887 response time in milliseconds: 75.29
 3 < 200
 3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 3 < Connection: keep-alive
-3 < Content-Length: 0
-3 < Date: Thu, 25 Nov 2021 13:14:14 GMT
+3 < Content-Type: application/json
+3 < Date: Thu, 25 Nov 2021 14:11:00 GMT
 3 < Expires: 0
 3 < Keep-Alive: timeout=60
 3 < Pragma: no-cache
+3 < Transfer-Encoding: chunked
 3 < X-Content-Type-Options: nosniff
 3 < X-Frame-Options: DENY
 3 < X-XSS-Protection: 1; mode=block
+{"id":34,"name":"Nal Hutta","climate":"temperate","terrain":"urban, oceans, swamps, bogs","numberFilms":0,"numberOfResidents":1}
 
-10:14:14.652 [print] 
-10:14:14.667 request:
-4 > PUT http://localhost:8081/planets/43
-4 > Accept-Encoding: gzip,deflate
-4 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiNCIsImlhdCI6MTYzNzg0NjA1MywiZXhwIjoxNjM3OTMyNDUzfQ.dMs20orHPxoN40Z5bWQGx979249t8Tf0Wc2e2VsLQDQ
-4 > Connection: Keep-Alive
-4 > Content-Length: 82
-4 > Content-Type: application/json; charset=UTF-8
-4 > Host: localhost:8081
-4 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
-{"name":"Nal Hutta","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
+11:11:00.888 [print] {
+  "numberFilms": 0,
+  "name": "Nal Hutta",
+  "numberOfResidents": 1,
+  "id": 34,
+  "climate": "temperate",
+  "terrain": "urban, oceans, swamps, bogs"
+}
 
-10:14:14.715 response time in milliseconds: 46.56
-4 < 404
-4 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-4 < Connection: keep-alive
-4 < Content-Type: application/json
-4 < Date: Thu, 25 Nov 2021 13:14:14 GMT
-4 < Expires: 0
-4 < Keep-Alive: timeout=60
-4 < Pragma: no-cache
-4 < Transfer-Encoding: chunked
-4 < X-Content-Type-Options: nosniff
-4 < X-Frame-Options: DENY
-4 < X-XSS-Protection: 1; mode=block
+11:11:00.909 karate.env system property was:  
+11:11:00.917 request:
+1 > POST http://localhost:8081/auth
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 49
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8081
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"email":"luyza@email.com","loginPassword":"123"}
+
+11:11:01.050 response time in milliseconds: 131.41
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Thu, 25 Nov 2021 14:11:00 GMT
+1 < Expires: 0
+1 < Keep-Alive: timeout=60
+1 < Pragma: no-cache
+1 < Transfer-Encoding: chunked
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-XSS-Protection: 1; mode=block
+{"token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc","type":"Bearer"}
+
+11:11:01.051 [print] {
+  "type": "Bearer",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc"
+}
+
+11:11:01.055 request:
+2 > POST http://localhost:8081/planets
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc
+2 > Connection: Keep-Alive
+2 > Content-Length: 58
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:8081
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Stewjon","climate":"temperate","terrain":"grass"}
+
+11:11:02.691 response time in milliseconds: 1634.64
+2 < 201
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Connection: keep-alive
+2 < Content-Type: application/json
+2 < Date: Thu, 25 Nov 2021 14:11:02 GMT
+2 < Expires: 0
+2 < Keep-Alive: timeout=60
+2 < Location: http://localhost:8081/planets/35
+2 < Pragma: no-cache
+2 < Transfer-Encoding: chunked
+2 < X-Content-Type-Options: nosniff
+2 < X-Frame-Options: DENY
+2 < X-XSS-Protection: 1; mode=block
+{"id":35,"name":"Stewjon","climate":"temperate","terrain":"grass","numberFilms":0,"numberOfResidents":1}
+
+11:11:02.692 [print] {
+  "numberFilms": 0,
+  "name": "Stewjon",
+  "numberOfResidents": 1,
+  "id": 35,
+  "climate": "temperate",
+  "terrain": "grass"
+}
+
+11:11:02.700 request:
+3 > PUT http://localhost:8081/planets/900
+3 > Accept-Encoding: gzip,deflate
+3 > Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBUEkgZG8gU3RhciBXYXJzIiwic3ViIjoiMSIsImlhdCI6MTYzNzg0OTQ2MSwiZXhwIjoxNjM3OTM1ODYxfQ.rz4jqdwTEk7uZrpSLr4idTufOsWviB1OcoLiTPCi9tc
+3 > Connection: Keep-Alive
+3 > Content-Length: 78
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:8081
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Earth","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
+
+11:11:02.731 response time in milliseconds: 30.04
+3 < 404
+3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Thu, 25 Nov 2021 14:11:02 GMT
+3 < Expires: 0
+3 < Keep-Alive: timeout=60
+3 < Pragma: no-cache
+3 < Transfer-Encoding: chunked
+3 < X-Content-Type-Options: nosniff
+3 < X-Frame-Options: DENY
+3 < X-XSS-Protection: 1; mode=block
 {"field":"id","message":"The planet you are looking for doesn't exist"}
 
-10:14:14.716 [print] {
+11:11:02.732 [print] {
+  "field": "id",
+  "message": "The planet you are looking for doesn't exist"
+}
+
+ype: application/json; charset=UTF-8
+3 > Host: localhost:8081
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.12)
+{"name":"Earth","climate":"temperate","terrain":"urban, oceans, swamps, bogs"}
+
+11:08:55.186 response time in milliseconds: 52.38
+3 < 404
+3 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+3 < Connection: keep-alive
+3 < Content-Type: application/json
+3 < Date: Thu, 25 Nov 2021 14:08:55 GMT
+3 < Expires: 0
+3 < Keep-Alive: timeout=60
+3 < Pragma: no-cache
+3 < Transfer-Encoding: chunked
+3 < X-Content-Type-Options: nosniff
+3 < X-Frame-Options: DENY
+3 < X-XSS-Protection: 1; mode=block
+{"field":"id","message":"The planet you are looking for doesn't exist"}
+
+11:08:55.187 [print] {
   "field": "id",
   "message": "The planet you are looking for doesn't exist"
 }
