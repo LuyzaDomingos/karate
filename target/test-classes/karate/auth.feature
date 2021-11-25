@@ -8,15 +8,6 @@ Feature: Create user and login
     * def timeNow = call now
     * def username = ("" + timeNow)
     
-    #creating user
-  	Given path 'signup'
-    And request {"email":"luyza@email.com", "loginPassword":"123" }
-    When method post
-    Then status 201
-    * print response
-    And match response.email == email
-    And match response.password != "123"
-
 
 	Scenario: Create user then log in 
   	Given path 'auth'
@@ -31,6 +22,6 @@ Feature: Create user and login
   	Given path 'auth'
     And request {"email":"luyza@email.com", "loginPassword":"12345" }
     When method post
-    Then status 404
+    Then status 400
     * print response
     

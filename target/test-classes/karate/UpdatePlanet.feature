@@ -19,8 +19,6 @@ Feature: Create and Delete a Planet of Star Wars Universe
     * def token = response.token
     
    
-    
-   Scenario: Create a new planet  and delete
    
    	* def planetName = "Dantooine"
     # create a new planet
@@ -33,7 +31,7 @@ Feature: Create and Delete a Planet of Star Wars Universe
     And match response.name == "Dantooine"
     And match response.climate == "temperate"
     And match response.terrain == "oceans, savannas, mountains, grasslands"
-    
+    * def planetId = response.id
    
     # delete the planet
     Given path 'planets/' + response.id
@@ -43,12 +41,16 @@ Feature: Create and Delete a Planet of Star Wars Universe
     * print response
     
     
-    Scenario: Try delete Planet and returning  a error if is invalid
     
-    Given path 'planets/900'
-    And header Authorization = 'Bearer ' + token
-    When method delete
+    Scenario: Trying update a planet that dont exist
+   
+   	* def planetName = "Nal Hutta"
+    # update a planet
+   	Given path 'planets/' + planetId
+   	And header Authorization = 'Bearer ' + token
+   	And request { "name": "Nal Hutta", "climate":"temperate", "terrain":"urban, oceans, swamps, bogs"}
+  	When method put
     Then status 404
     * print response
-    And match response.message == "Id dont exist"
-    
+    And match response.message == "The planet you are looking for doesn't exist"
+      
